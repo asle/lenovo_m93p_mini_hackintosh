@@ -88,6 +88,9 @@ Devicepropertides for audio and gpu:
 
 ## Misc.
 
+### Cosmetics
+As you see I have added the OpenCanopy.efi and the resource folder so the startup is a little nicer to look at with icons. Remove the "-v" in boot-args if you want a clean, no-text startup. I just like to see what is going on :-)
+
 ### Performance ###
 This m93p is an i5 4590T, 4-core/4-thread. It is faster than a 2014 Mac Mini! I just love the Haswell versions since they are so easy to hack- Skylake has been a pain regarding sleep and GPU issues. This m93p runs 17 tracks in Logic Pro X (the test file) with all plugins. Not bad for a machine you can get for $100-$200 used. You can increase the performance if you swap in a i7 4785T. 
 
