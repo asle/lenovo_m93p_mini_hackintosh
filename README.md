@@ -47,7 +47,7 @@ The Lenovo m93p is the first gen. in this series. It features a Haswell low-powe
 * 4th gen. Intel CPU lags a bit behind 6th or newer gen.
 
 ## Installation
-* I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime) to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own HP 800 G1 to be sure.
+* I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime) to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own Lenovo m93p Tiny to be sure.
 * Copy over my EFI folder to the EFI partition
 * Edit config.plist to enter new serialse UUID etc.
 
