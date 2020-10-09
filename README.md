@@ -48,8 +48,7 @@ The Lenovo m93p is the first gen. in this series. It features a Haswell low-powe
 
 ## Installation
 * I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime) to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own Lenovo m93p Tiny to be sure.
-* Created installation from [OpenCore guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#starting-point)
-* Copy over my EFI folder to the EFI partition
+* Copy over my EFI folder (created from  [OpenCore guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#starting-point))to the EFI partition
 * Edit config.plist to enter new serialse UUID etc.
 
 ## BIOS setup
