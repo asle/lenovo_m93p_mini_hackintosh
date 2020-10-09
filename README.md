@@ -13,7 +13,7 @@ This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide
 * 2.5" SSD Samsung 860 EVO 500GB
 * BCM94352HMB(Mini PCI) wifi/bt card
 * 65w external power supply
-* OpenCore 0.6.0
+* OpenCore 0.6.2
 
 ## What is working
 * Mac OS X 10.15.6
