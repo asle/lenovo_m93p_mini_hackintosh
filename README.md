@@ -80,7 +80,8 @@ I am using the BCM94352HMB from AzureWave ($24). This requires some extra kexts 
 This works OTB with no other patching then the one from the OC Guide. So I have 2 monitors working with not problems. VGA does not work like on any other Hackintosh!
 
 ## Audio
-Realtek ALC283. This works fine with correct alcid=1. 
+Realtek ALC283. ~~This works fine with correct alcid=1.~~ Changed to AppleALC.kext and alcid=11. Still internal speaker not showing up.
+
 
 Devicepropertides for audio and gpu:
 
