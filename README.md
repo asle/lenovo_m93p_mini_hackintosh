@@ -17,7 +17,7 @@ This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide
 * OpenCore 0.7.2
 
 ## What is working
-* Mac OS X 11.3.1 -> should work fine with 11.5.1
+* macOS 11.3.1 -> should work fine with 11.5.1
 * Sleep
 * Wifi/Bluetooth with new Broadcom card
 * Audio, in/mic and out
