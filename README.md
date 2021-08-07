@@ -1,6 +1,7 @@
 ![Lenovo m93p mini](https://github.com/asle/lenovo_m93p_mini_hackintosh/blob/master/m93p.jpg?raw=true)
 
 # Lenovo m93 mini Hackintosh - OpenCore
+-Update- now upgraded to OpenCore 0.7.2 and macOS Big Sur
 The Lenovo m93p is a tiny PC and first gen. of the Lenovo mini series using a Haswell Intel cpu. Perfect for hackintoshing!
 
 ## About this guide
@@ -50,7 +51,7 @@ The Lenovo m93p is the first gen. in this series. It features a Haswell low-powe
 ## Installation
 * I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime) to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own Lenovo m93p Tiny to be sure.
 * Copy over my EFI folder (created from  [OpenCore guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#starting-point)) to the EFI partition
-* Edit config.plist to enter new serialse UUID etc.
+* Edit config.plist to enter new serials, MB, UUID etc.
 
 ## BIOS setup
 I suggest upgrading to latest version. Load default settings. Things to configure: 
