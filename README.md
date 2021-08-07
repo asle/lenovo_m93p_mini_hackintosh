@@ -5,6 +5,7 @@ The Lenovo m93p is a tiny PC and first gen. of the Lenovo mini series using a Ha
 
 ## About this guide
 This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccomend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The OC guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
+-> See changes.txt for updates
 
 ## Specs
 * Intel i5-4590T @ 2.20GHz (35w) 4-core/4-thread
@@ -13,10 +14,10 @@ This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide
 * 2.5" SSD Samsung 860 EVO 500GB
 * BCM94352HMB(Mini PCI) wifi/bt card
 * 65w external power supply
-* OpenCore 0.6.2
+* OpenCore 0.7.2
 
 ## What is working
-* Mac OS X 10.15.6
+* Mac OS X 11.3.1 -> should work fine with 11.5.1
 * Sleep
 * Wifi/Bluetooth with new Broadcom card
 * Audio, in/mic and out
