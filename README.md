@@ -1,7 +1,7 @@
 ![Lenovo m93p mini](https://github.com/asle/lenovo_m93p_mini_hackintosh/blob/master/m93p.jpg?raw=true)
 
 # Lenovo m93 mini Hackintosh - OpenCore
--Update- now upgraded to OpenCore 0.7.2 and macOS Big Sur
+-Update- now upgraded to OpenCore 0.7.2 and macOS Big Sur. 
 The Lenovo m93p is a tiny PC and first gen. of the Lenovo mini series using a Haswell Intel cpu. Perfect for hackintoshing!
 
 ## About this guide
