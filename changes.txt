@@ -1,0 +1,12 @@
+
+##05-2021##
+- Upgraded to OpenCore 0.6.8
+- updated config.plist against Sanity Checker
+- updated to latest kexts with Kext Updater
+- changed SMBIOS to iMac14,4 to be able to install MacOS Big Sur
+- added UEFI->Appleinput section from OpenCore 0.6.9 related to mouse glitch in picker on MacOS Big Sur
+- Tested with MacOS Big Sur. Works fine but have not been able to install Big Sur directly on another m93p. I had to install MacOS Catalina and then upgrade.
+##08-2021##
+- Upgraded to OpenCore 0.7.2
+- Upgraded all kexts and checked config.plist with config checker in OpenCore->Tools
+- Replaced VBoxHfs.efi with HfsPlus.efi
