@@ -3,10 +3,10 @@
 # Lenovo m93 mini Hackintosh - OpenCore
 -Update- now upgraded to OpenCore 0.9.1 and macOS Big Sur 11.7.4. 
 The Lenovo m93p is a tiny PC and first gen. of the Lenovo mini series using a Haswell Intel cpu. Perfect for hackintoshing!
-NOTE! The SMBIOS is set to iMac (21.5-inch, Mid 2014) but I have [seen some](https://github.com/osx86-ijb/Lenovo-ThinkCentre-m93p-Tiny-macOS-Monterey) set the config to macmini7,1 - Mac Mini Late 2014. Then it can run macOS Montery 12.x. Feel free to try. I am very satisfied with the speed on macOS Big Sur.
+NOTE! The SMBIOS is set to iMac (21.5-inch, Mid 2014) but I have [**seen some**](https://github.com/osx86-ijb/Lenovo-ThinkCentre-m93p-Tiny-macOS-Monterey) set the config to macmini7,1 - Mac Mini Late 2014. Then it can run macOS Montery 12.x. Feel free to try. I am very satisfied with the speed on macOS Big Sur.
 
 ## About this guide
-This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccomend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The OC guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
+This is not a complete tutorial but based on the [**OpenCore Vanilla Desktop Guide for Haswell**](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccomend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The OC guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
 -> See changes.txt for updates
 
 ## Specs
