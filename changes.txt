@@ -1,4 +1,6 @@
-
+##04-2023
+- Upgraded to OpenCore 0.9.1
+- Major changes to EFI
 ##05-2021##
 - Upgraded to OpenCore 0.6.8
 - updated config.plist against Sanity Checker

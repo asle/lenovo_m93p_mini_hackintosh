@@ -1,7 +1,7 @@
 ![Lenovo m93p mini](https://github.com/asle/lenovo_m93p_mini_hackintosh/blob/master/m93p.jpg?raw=true)
 
 # Lenovo m93 mini Hackintosh - OpenCore
--Update- now upgraded to OpenCore 0.7.2 and macOS Big Sur. 
+-Update- now upgraded to OpenCore 0.9.1 and macOS Big Sur 11.7.4. 
 The Lenovo m93p is a tiny PC and first gen. of the Lenovo mini series using a Haswell Intel cpu. Perfect for hackintoshing!
 
 ## About this guide
@@ -18,7 +18,7 @@ This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide
 * OpenCore 0.7.2
 
 ## What is working
-* macOS 11.3.1 -> should work fine with 11.5.1
+* macOS 11.7.4
 * Sleep
 * Wifi/Bluetooth with new Broadcom card
 * Audio, in/mic and out
@@ -65,6 +65,7 @@ I suggest upgrading to latest version. Load default settings. Things to configur
 I have enclosed the USBports.kext derived from hackintool. It should work on your PC of this model.
 
 ## config.plist changes
+* This info is outdated. Major changes to EFI from original version.
 The only change I can recall is this:
 * RebuildAppleMemoryMap -> YES
 You will see the [OC sanity checker](https://opencore.slowgeek.com/) complain about the change :-)
