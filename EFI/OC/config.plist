@@ -920,9 +920,9 @@
 			<key>SystemProductName</key>
 			<string>iMac14,4</string>
 			<key>SystemSerialNumber</key>
-			<string>D25PK0RBFY0T</string>
+			<string>##ENTER_SERIAL##</string>
 			<key>SystemUUID</key>
-			<string>8F3CC4DE-11F4-427F-817C-EAE79C841146</string>
+			<string>##ENTER_UUID##</string>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MaxBIOSVersion</key>
