@@ -29,7 +29,7 @@ This is not a complete tutorial but based on the [**OpenCore Vanilla Desktop Gui
 * AirDrop, Handoff etc.
 
 ## What is not working
-* HDMI audio (@Tokobotenkai [**mentioned**](https://github.com/asle/lenovo_m93p_mini_hackintosh/issues/18)mentioned using an active DP-HDMI adapter will fix this. I have not tried it yet.)
+* HDMI audio (@Tokobotenkai [**mentioned**](https://github.com/asle/lenovo_m93p_mini_hackintosh/issues/18) mentioned using an active DP-HDMI adapter will fix this. I have not tried it yet.)
 
 ## About mini-PCs and this machine
 I am fascinated by these small, cute Mac Mini-like PCs and have had my hands on many different models from Lenovo, HP and Dell. You can get the first gen. models very cheap online (much cheaper than a slower Mac Mini) and they pack a lot of power considering their small size and price. They are all easy to upgrade with RAM, hard drives and CPU. That is not possible with a Mac Mini! What differs these machines are mainly:
