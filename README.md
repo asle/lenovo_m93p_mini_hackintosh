@@ -1,9 +1,9 @@
 ![Lenovo m93p mini](https://github.com/asle/lenovo_m93p_mini_hackintosh/blob/master/m93p.jpg?raw=true)
 
 # Lenovo m93 mini Hackintosh - OpenCore
--Update- now upgraded to OpenCore 0.9.1 and macOS Big Sur 11.7.4.
+- Update - changed SMBIOS to Macmini7,1 for macOS Monterey 12.7.3  support, upgraded to OpenCore 0.9.8.
 The Lenovo m93p is a tiny PC and first gen. of the Lenovo mini series using a Haswell Intel cpu 4th gen. e.g. I5-4260U. Perfect for hackintoshing!
-NOTE! The SMBIOS is set to iMac (21.5-inch, Mid 2014) but I have [**seen some**](https://github.com/osx86-ijb/Lenovo-ThinkCentre-m93p-Tiny-macOS-Monterey) set the config to macmini7,1 - Mac Mini Late 2014. Then it can run macOS Montery 12.x. Both models(SMBIOS) are running Intel Haswell 4th gen. cpu so it works fine. Feel free to try. But I am very satisfied with the speed on macOS Big Sur. NOTE! -> if you change SMBIOS you must generate a new serial and UUID!
+NOTE! The SMBIOS is set to Mac Mini (Late 2014). Both models(SMBIOS) are running Intel Haswell 4th gen. cpu so it works fine. Feel free to try. But I am very satisfied with the speed on macOS Big Sur. NOTE! -> if you change SMBIOS you must generate a new serial and UUID!
 
 ## About this guide
 This is not a complete tutorial but based on the [**OpenCore Vanilla Desktop Guide for Haswell**](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccomend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The OC guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
@@ -19,14 +19,17 @@ This is not a complete tutorial but based on the [**OpenCore Vanilla Desktop Gui
 * OpenCore 0.7.2
 
 ## What is working
-* iMac (21.5-inch, Mid 2014)
-* macOS 11.7.4
+* Mac Mini (Late 2014)
+* macOS 12.7.3
 * Sleep
 * Wifi/Bluetooth with new Broadcom card
 * Audio, in/mic and out
 * Multi-monitor (2)
 * iMessage, AppStore
 * AirDrop, Handoff etc.
+
+## What is not working
+* HDMI audio (@Tokobotenkai mentioned using an active DP-HDMI adapter will fix this. I have not tried it yet.)
 
 ## About mini-PCs and this machine
 I am fascinated by these small, cute Mac Mini-like PCs and have had my hands on many different models from Lenovo, HP and Dell. You can get the first gen. models very cheap online (much cheaper than a slower Mac Mini) and they pack a lot of power considering their small size and price. They are all easy to upgrade with RAM, hard drives and CPU. That is not possible with a Mac Mini! What differs these machines are mainly:
@@ -47,7 +50,7 @@ The Lenovo m93p is the first gen. in this series. It features a Haswell low-powe
 * Easy to upgrade CPU
 
 ## Cons Lenovo m93p tiny
-* Can only install 1 2,5" hard drive, no M.2 slot
+* Can only install 1 x 2,5" hard drive, no M.2 slot
 * 4th gen. Intel CPU lags a bit behind 6th or newer gen.
 
 ## Installation
