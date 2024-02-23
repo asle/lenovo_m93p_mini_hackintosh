@@ -1,3 +1,8 @@
+##02-2024
+- Changed SMBIOS to MacMini7,1 for macOS Montery support
+- Upgraded macOS to Monterey
+- Upgraded to OpenCore 0.9.8 with latest kexts
+- Changed files for bluetooth and wifi to work in macOS Montery
 ##04-2023
 - Upgraded to OpenCore 0.9.1
 - Major changes to EFI
